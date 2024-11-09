@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula Wonders</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 50;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px;
+        }
+        h1 {
+            color: #ffcc00;
+
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 100px;
+        }
+        section {
+            margin-top: 30px;
+        }
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            padding: 0px;
+        }
+        #gallery img {
+            width: 120%;
+            height: auto;
+            border-radius: 30px;
+        #gallery p {
+            text-align: center;
+            color: #ffcc00;
+            margin-top: 10px;
+        }
+
+        iframe {
+            display: block;
+            margin: 50px ;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nebula Wonders</h1>
+    <nav>
+        <ul>
+            <li><a href="#about" style="color: #ffcc00;">About Nebulae</a></li>
+            <li><a href="#gallery" style="color: #ffcc00;">Gallery</a></li>
+            <li><a href="#video" style="color: #ffcc00;">Videos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Nebula</h2>
+    <p>Nebulae are vast clouds of dust and gas in space. They are often the birthplace of stars and can be incredibly beautiful to observe. Some of the most famous nebulae include the Orion Nebula, the Horsehead Nebula, and the Crab Nebula.</p>
+</section>
+
+<section id="gallery">
+    <h2>Nebula Gallery</h2>
+    <!-- Each image and its caption -->
+    <div>
+        <p>Butterfly Nebula</p>
+        <img src="/images/Butterfly Nebula.jpg" alt="Butterfly Nebula">
+        <p>Carina Nebula</p>
+        <img src="/images/Carina Nebula.jpg" alt="Carina Nebula">
+        <p>Cone Nebula</p>
+        <img src="/images/Cone Nebula.jpg" alt="Cone Nebula">
+        <p>Horsehead Nebula</p>
+        <img src="/images/Horsehead Nebula.jpg" alt="Horsehead Nebula">
+        <p>Trifid Nebula</p>
+        <img src="/images/Trifid Nebula.jpg" alt="Trifid Nebula">
+        <p>Reflection Nebula</p>
+        <img src="/images/Reflection Nebula.jpg" alt="Reflection Nebula">
+        <p>Tarantula Nebula</p>
+        <img src="/images/Tarantula Nebula.jpg" alt="Tarantula Nebula">
+        <p>Fine Ring Nebula</p>
+        <img src="/images/Fine ring Nebula.jpg" alt="Fine Ring Nebula">
+        <p>Pipe Nebula</p>
+        <img src="/images/Pipe Nebula.jpg" alt="Pipe Nebula">
+        <p>Helix Nebula</p>
+        <img src="/images/Helix Nebula.jpg" alt="Helix Nebula">
+        <p>Crab Nebula</p>
+        <img src="/images/Crab Nebula.jpg" alt="Crab Nebula">
+    </div>
+</section>
+
+<section id="video">
+    <h2>Learn more about Nebula</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VFXJnbnN5ro" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2024 Nebula Wonders. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
